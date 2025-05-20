@@ -6,19 +6,26 @@
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
-    "start": "vinxi start"
+    "start": "vinxi start",
+    "lint": "eslint . --cache"
   },
   "keywords": [],
   "author": "Bassel Al-Sayed",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@eslint/js": "^9.27.0",
     "@tsconfig/recommended": "^1.0.8",
     "@tsconfig/vite-react": "^3.4.0",
     "@types/react": "^19.1.4",
     "@types/react-dom": "^19.1.5",
     "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.27.0",
+    "eslint-config-bsas": "^1.1.1",
+    "globals": "^16.1.0",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1",
     "vite-tsconfig-paths": "^5.1.4"
   },
   "dependencies": {

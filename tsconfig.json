@@ -3,7 +3,7 @@
     "@tsconfig/recommended/tsconfig.json",
     "@tsconfig/vite-react/tsconfig.json"
   ],
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js"],
   "compilerOptions": {
     "baseUrl": ".",
     "noEmit": true,
