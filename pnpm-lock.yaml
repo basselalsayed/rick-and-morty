@@ -27,6 +27,9 @@ importers:
       '@tsconfig/recommended':
         specifier: ^1.0.8
         version: 1.0.8
+      '@tsconfig/vite-react':
+        specifier: ^3.4.0
+        version: 3.4.0
       '@types/react':
         specifier: ^19.1.4
         version: 19.1.4
@@ -1125,6 +1128,9 @@ packages:
 
   '@tsconfig/recommended@1.0.8':
     resolution: {integrity: sha512-TotjFaaXveVUdsrXCdalyF6E5RyG6+7hHHQVZonQtdlk1rJZ1myDIvPUUKPhoYv+JAzThb2lQJh9+9ZfF46hsA==}
+
+  '@tsconfig/vite-react@3.4.0':
+    resolution: {integrity: sha512-NxS7WJayciLI+UnCgEqdBfQrZebvVNTSEj5EnaitwThL7iAso5G8wx18B/6yypCFGnyu8p6IMpKWu6JklOX3KA==}
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -4843,6 +4849,8 @@ snapshots:
   '@tanstack/virtual-file-routes@1.115.0': {}
 
   '@tsconfig/recommended@1.0.8': {}
+
+  '@tsconfig/vite-react@3.4.0': {}
 
   '@types/babel__core@7.20.5':
     dependencies:
