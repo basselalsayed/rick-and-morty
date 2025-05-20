@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "Bassel Al-Sayed",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.8"
+  }
 }
