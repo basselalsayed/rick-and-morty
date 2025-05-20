@@ -1,0 +1,13 @@
+{
+  "name": "rick-and-morty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bassel Al-Sayed",
+  "license": "ISC",
+  "description": ""
+}
