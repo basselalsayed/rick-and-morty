@@ -2,15 +2,29 @@
   "name": "rick-and-morty",
   "version": "1.0.0",
   "main": "index.js",
-  "module": "true",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
   },
   "keywords": [],
   "author": "Bassel Al-Sayed",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@tsconfig/recommended": "^1.0.8"
+    "@tsconfig/recommended": "^1.0.8",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "@vitejs/plugin-react": "^4.4.1",
+    "typescript": "^5.8.3",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.120.5",
+    "@tanstack/react-start": "^1.120.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "vinxi": "^0.5.6"
   }
 }
